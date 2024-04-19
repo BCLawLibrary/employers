@@ -1,0 +1,63 @@
+#pagecontent #top-menu .btn.btn-default, #pagecontent #top-menu .btn {
+	width:auto;
+}
+
+#pagecontent #left-menu .btn.btn-default, #pagecontent #left-menu .btn {
+	width:100%
+}
+	
+.btn.btn-default {
+    margin:2px; 
+    border-bottom:2px solid #fff;
+}
+
+.btn.btn-default:hover {
+    border-bottom:2px solid #fff;
+}
+
+#top-menu .btn.btn-default {
+    border-bottom:8px solid #fff;
+}
+
+#top-menu .btn.btn-default:hover {
+    border-bottom:2px solid #fff;
+}
+
+#top-menu .btn.selected {
+    margin-bottom:6px;
+}
+
+.btn.selected, #top-menu .btn.btn-default.selected {
+    background: #777;
+    border-bottom:4px solid #8a100b;
+    color: #fff;
+}
+
+.btn.selected:hover {
+    border-bottom:4px solid #8a100b;
+}
+
+#employerTable {
+    float:left; 
+    width:70%;
+}
+
+#left-menu {
+    float:left; 
+    display:none;
+    width:25%; 
+    max-width:200px; 
+    margin-right:5%;
+}
+
+#left-list {
+    list-style:none; 
+    padding:0px;
+}
+
+@media screen and (min-width: 700px){
+    #left-menu {
+        display:block;
+    }
+};
+
