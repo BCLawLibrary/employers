@@ -1,0 +1,122 @@
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.open-sans-semibold {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 550;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+/* ================================ */
+
+.policies__loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+}
+
+.policies__loading img {
+  width: 50px;
+  height: 50px;
+}
+
+/* ================================ */
+
+.lower-section {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  column-gap: 20px;
+  margin-top: 20px;
+}
+
+/* ================================ */
+
+.buttons button {
+  border-radius: 5px;
+  font-size: 14px;
+  letter-spacing: 0.28px;
+  font-weight: 550;
+  line-height: 18px;
+  max-width: 200px;
+  padding: 8px 20px;
+  -webkit-transition: 0.2s;
+  border: 0px solid;
+  width: fit-content;
+  font-family: "Open Sans", sans-serif !important;
+}
+
+#region-buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 4px;
+  row-gap: 4px;
+}
+
+#region-buttons button {
+  background-color: #8a100b;
+  color: #fff;
+}
+
+#region-buttons button:hover {
+  background-color: #b30000;
+  color: #dccaa0;
+}
+
+#state-buttons {
+  display: flex;
+  flex-direction: column;
+  row-gap: 4px;
+}
+
+#state-buttons button {
+  background-color: #dccaa0;
+  color: #000;
+}
+
+#state-buttons button:hover {
+  background-color: #a78e56;
+  color: #fff;
+}
+
+/* ================================ */
+
+#employers__table thead {
+  display: none;
+}
+
+#employers__table tr.dtrg-group th {
+  /* Make RowGroup header background white */
+  background-color: #fff;
+  font-weight: 700;
+}
+
+#employers__table td {
+  border-bottom: none !important;
+}
+
+/* ================================ */
+
+@media screen and (width < 992px) {
+  .lower-section {
+    grid-template-columns: 1fr 2fr;
+  }
+}
+
+@media screen and (width < 787px) {
+  .lower-section {
+    display: flex;
+  }
+
+  #state-buttons {
+    display: none;
+  }
+}
